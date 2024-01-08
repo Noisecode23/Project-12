@@ -52,6 +52,7 @@ body {
 .right {
   width: 75vw;
   margin: 16px 0px;
+  position: relative;
 }
 .navBar {
   display: flex;
@@ -104,4 +105,16 @@ body {
   position: absolute;
   top: 212px;
   right: 27px;
+}
+.playbar{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(113, 213, 113);
+  padding: 12px;
+}
+.songButtons{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
