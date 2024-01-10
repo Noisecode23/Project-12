@@ -27,11 +27,35 @@ body {
   position: relative;
   height: 80vh;
 }
-.library ul li {
-  width: 20px;
-  list-style: none;
+.LibraryHead {
+  width: 30px;
   display: flex;
-  padding-top: 20px;
+  align-items: center;
+}
+.LibraryHead h3 {
+  padding: 0 10px;
+}
+.songsList ul {
+  padding: 16px 12px;
+}
+.songsList ul li {
+  list-style-type: decimal;
+  display: flex;
+  gap: 34px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 12px 0px;
+  padding: 8px;
+}
+.playNow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playNow span{
+  font-size: 14px;
+  width: 64px;
 }
 .footer {
   bottom: 0px;
@@ -46,8 +70,8 @@ body {
   font-size: 14px;
   transition: all 0.3s ease;
 }
-.footerLinks a:hover{
-    text-decoration: underline;
+.footerLinks a:hover {
+  text-decoration: underline;
 }
 .right {
   width: 75vw;
@@ -106,14 +130,14 @@ body {
   top: 212px;
   right: 27px;
 }
-.playbar{
+.playbar {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  background-color: rgb(113, 213, 113);
+  width: 90%;
+  background-color: rgb(174, 204, 174);
   padding: 12px;
 }
-.songButtons{
+.songButtons {
   display: flex;
   justify-content: center;
   gap: 12px;
