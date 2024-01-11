@@ -35,12 +35,18 @@ body {
 .LibraryHead h3 {
   padding: 0 10px;
 }
+.songsList {
+  overflow: scroll;
+  height: 344px;
+  margin: 44px 0px;
+}
 .songsList ul {
   padding: 16px 12px;
 }
 .songsList ul li {
   list-style-type: decimal;
   display: flex;
+  justify-content: space-between;
   gap: 34px;
   cursor: pointer;
   border: 1px solid white;
@@ -48,12 +54,12 @@ body {
   margin: 12px 0px;
   padding: 8px;
 }
-.playNow{
+.playNow {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.playNow span{
+.playNow span {
   font-size: 14px;
   width: 64px;
 }
@@ -131,11 +137,33 @@ body {
   right: 27px;
 }
 .playbar {
-  position: absolute;
-  bottom: 0;
-  width: 90%;
-  background-color: rgb(174, 204, 174);
+  position: fixed;
+  bottom: 20px;
+  width: 70vw;
+  height: 40px;
+  filter: invert(1);
+  background: #dad5d5;
+  border-radius: 10px;
   padding: 12px;
+}
+.seekBar{
+  height: 2px;
+  width: 98%;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0px;
+  margin: 6px;
+}
+.circle{
+  width: 13px;
+  height: 13px;
+  background-color: black;
+  border-radius: 13px;
+  position: relative;
+  bottom: 5px;
+  transition: left 0.5s;
 }
 .songButtons {
   display: flex;
