@@ -90,6 +90,14 @@ body {
   justify-content: space-between;
   background-color: rgb(35, 35, 35);
 }
+.hamburger {
+  display: none;
+}
+.arrows {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 .navBar > * {
   padding: 10px;
 }
@@ -98,6 +106,7 @@ body {
   color: #fff;
   padding: 0 10px;
 }
+
 .SpotifyPlaylist {
   padding: 16px;
 }
@@ -146,7 +155,7 @@ body {
   border-radius: 10px;
   padding: 12px;
 }
-.seekBar{
+.seekBar {
   height: 2px;
   width: 98%;
   background-color: black;
@@ -157,7 +166,7 @@ body {
   margin: 6px;
   cursor: pointer;
 }
-.circle{
+.circle {
   width: 13px;
   height: 13px;
   background-color: black;
@@ -166,11 +175,12 @@ body {
   bottom: 5px;
   transition: left 0.5s;
 }
-.abovebar{
+.abovebar {
   display: flex;
   justify-content: space-between;
 }
-.songInfo, .songTime{
+.songInfo,
+.songTime {
   color: black;
   padding: 0 12px;
 }
@@ -180,3 +190,22 @@ body {
   gap: 12px;
 }
 
+@media (max-width: 1400px) {
+  .left {
+    width: 433px;
+    position: absolute;
+    left: -100%;
+    transition: all 0.3s;
+    z-index: 1;
+    background-color: black;
+  }
+  .right {
+    width: 100vw;
+  }
+  .playbar {
+    width: 95vw;
+  }
+  .hamburger{
+    display: block;
+  }
+}
