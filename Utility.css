@@ -46,8 +46,7 @@
     position: absolute;
 }
 .btn{
-    width: 7vw;
-    height: 7vh;
+    padding: 10px 20px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
