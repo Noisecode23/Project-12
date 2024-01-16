@@ -170,7 +170,7 @@ body {
 .playbar {
   position: fixed;
   bottom: 20px;
-  width: 70vw;
+  width: 66vw;
   min-height: 40px;
   filter: invert(1);
   background: #dad5d5;
