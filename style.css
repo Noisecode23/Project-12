@@ -213,6 +213,9 @@ body {
   align-items: center;
   gap: 12px;
 }
+.range input{
+  cursor: pointer;
+}
 .songInfo {
   color: black;
   padding: 0 12px;
