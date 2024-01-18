@@ -1,0 +1,82 @@
+.border{
+    border: 2px solid black;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.j-s-end{
+    justify-content: end;
+}
+.items-centre{
+    align-items: center;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+.p-2{
+    padding-right: 22px;
+}
+.bg-black{
+    background-color: #000;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.bg-dark-grey{
+    background-color: #101010 ;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 7px;
+}
+.pos-1{
+    position: relative;
+}
+.pos-2{
+    position: absolute;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Border radius of the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #555; /* Color of the scrollbar track */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox uses a single-pseudo element (::) instead of double-pseudo element (:::) */
+  /* Also, Firefox does not support changing the background-color of the scrollbar-track directly */
+  /* You can only style the scrollbar-thumb */
+  /* The width property is not supported in Firefox, so the thumb size is controlled by the browser */
+  
+  ::-moz-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-moz-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Border radius of the thumb */
+  }
+  
